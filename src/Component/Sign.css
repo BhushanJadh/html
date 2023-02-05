@@ -1,0 +1,64 @@
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body
+{
+width: 100%;
+height: 50vh;
+border: 0px solid black;
+background-image: url('../Component/sign.jpg');
+}
+h1{
+color: white;
+font-weight: 20px;
+font-family: Arial, Helvetica, sans-serif;
+font: bolder;
+}
+h1:hover
+{
+    color: red;
+}
+label
+{
+    color: aqua;
+}
+label:hover 
+{
+    color: white;
+}
+.container
+{
+    width: 100%;
+    height: 50vh;
+    border: 0px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+
+}
+.row
+{
+    width: 50%;
+    height: 40vh;
+    border: 0px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 454500) 0px 15px 12px;
+
+}
+button
+{
+width: 70px;
+margin-left: 25%;
+
+}
+.form-control
+{
+    box-shadow: rgba(0, 0, 0, 56933) 0px 19px 38px, rgba(0, 0, 0, 454500) 0px 15px 12px;
+width: 100%;
+}

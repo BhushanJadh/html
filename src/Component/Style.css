@@ -1,0 +1,175 @@
+*
+{
+ margin: 0;
+ padding: 0;
+ font-family: "Gill Sans Extrabold", sans-serif;   
+}
+body
+{
+width: 100%;
+height: 100vh;
+border: 0px solid black;
+
+}
+.navbar
+{
+    width: 100%;
+    height: 8vh;
+    border: 0px solid black;
+    justify-content: space-between;
+    background-color: black;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  position: fixed;
+
+}
+.navbar:hover
+{
+  background-color: green;
+}
+.logo h2
+{  
+   font-size: 30px;
+   text-decoration: none;
+   margin-left: 20px;
+   margin-top: 12px;
+   color: red;
+}
+.logo h2:hover
+{
+  color: blue;
+}
+.logo
+{
+    float: left;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    ;
+}
+
+.navitem 
+{
+margin-left:30%;
+display: flex;
+float: left;
+}
+.navitem ul
+{
+   line-height: 20px; 
+   padding: 10px;
+   list-style: none;
+   
+}
+.navitem li
+{
+
+display: inline;
+margin-right: 20px;
+justify-content: center;
+align-items: center;
+font-size: 20px;
+  font-weight: bolder;
+  list-style:none ;
+  
+}
+
+
+
+.navitem p
+{color: #ffff;
+    display: inline;
+    margin-right: 30px;
+    justify-content: center;
+    align-items: center;
+   
+      font-weight: bolder;
+      list-style:none ;
+     text-decoration: none;
+
+}
+.navitem p:hover
+{
+  color: black;
+}
+button
+{
+height: 30px;
+width: 40px;
+margin-top: 10px;
+
+}
+.contain
+{
+background-image:url(../Component/tree.jpg);
+background-size:cover;
+height: 100vh;
+width: 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position-y: center;
+background-origin: content-box;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+.contain h6
+{
+color: white;
+font-size: 15px;
+letter-spacing: 0.5px;
+font-weight: bolder;
+text-align: center;
+padding-top: 10px;
+line-height: 30px;
+}
+.para
+{
+height: 50vh;
+width: 50%;
+border: 0px solid black;
+align-items: center;
+justify-content: center;
+padding-top: 8vh;
+display: block;
+
+}
+.contain h1
+{
+font-weight: bolder;
+color: indianred;
+text-align: center;
+letter-spacing: 1px;
+}
+.contain h1:hover
+{
+color: darkorange;
+
+}
+.contain span
+{
+  color: black;
+}
+.contain span:hover
+{
+  color: white;
+}
+.contain button
+{
+width: 85px;
+height: 40px;
+border-radius: 20px;
+color: blue;
+font-size: 12px;
+font-weight: bolder;
+margin-left: 46%;
+border: none;
+box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.contain button:hover
+{
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+  0.3em 0.3em 1em rgba(0, 0, 10, 0.13);
+color: coral;
+}

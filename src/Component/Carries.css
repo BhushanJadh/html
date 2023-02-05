@@ -1,0 +1,136 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;  
+}
+body
+{
+width: 100%;
+height: 100vh;
+background-image: url(../Component/mm.jpg);
+background-size:cover;
+
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position-y: center;
+background-origin: content-box;
+
+}
+.main
+{
+    width: 100%;
+    height: 150vh;
+    border: 2px solid red;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+
+}
+.conf
+{
+ border: 2px solid black;  
+
+
+}
+.conf h1
+{
+  color: lawngreen; 
+  letter-spacing: 6px; 
+  text-align: center;
+  font-weight: bolder;
+}
+.conf h1:hover
+{
+  color: coral;  
+}
+.conf p
+{
+  text-align: center;  
+  letter-spacing: 0.5px;
+  font-weight: bolder;
+  color: #ffff;
+}
+.cono
+{
+ border: 2px solid black;  
+
+
+}
+.cono h1
+{
+  color: lawngreen; 
+  letter-spacing: 6px; 
+  text-align: center;
+  font-weight: bolder;
+}
+.cono h1:hover
+{
+  color: coral;  
+}
+.cono p
+{
+  text-align: center;  
+  letter-spacing: 0.5px;
+  font-weight: bolder;
+  color: #ffff;
+}
+.cont
+{
+ border: 2px solid rgb(82, 2, 2); 
+ height: 20vh;
+ width: 60%; 
+
+
+}
+.cont h1
+{
+  color: lawngreen; 
+  letter-spacing: 6px; 
+  text-align: center;
+  font-weight: bolder;
+}
+.cont h1:hover
+{
+  color: coral;  
+}
+.cont p
+{
+  text-align: center;  
+  letter-spacing: 0.5px;
+  font-weight: bolder;
+  color: #ffff;
+}
+.conth
+{
+ border: 2px solid black;  
+
+
+}
+.conth h1
+{
+  color: lawngreen; 
+  letter-spacing: 6px; 
+  text-align: center;
+  font-weight: bolder;
+}
+.conth h1:hover
+{
+  color: coral;  
+}
+.conth p
+{
+  text-align: center;  
+  letter-spacing: 0.5px;
+  font-weight: bolder;
+  color: #ffff;
+}
+.main{
+
+  display: inline-block; 
+   width: 100%;
+height: 100vh;
+border: 2px solid black;
+
+}

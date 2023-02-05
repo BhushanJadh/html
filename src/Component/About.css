@@ -1,0 +1,49 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;  
+}
+body
+{
+width: 100%;
+height: 100vh;
+background-image: url(../Component/bk.jpg);
+
+}
+.main
+{
+    width: 100%;
+    height: 100vh;
+    border: 0px solid red;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+
+}
+.con
+{
+    width: 50%;
+    height: 30vh;
+    border: 0px solid black;
+
+}
+.con h1
+{
+  color: lawngreen; 
+  letter-spacing: 6px; 
+  text-align: center;
+  font-weight: bolder;
+}
+.con h1:hover
+{
+  color: coral;  
+}
+.con p
+{
+  text-align: center;  
+  letter-spacing: 0.5px;
+  font-weight: bolder;
+  color: #ffff;
+}
